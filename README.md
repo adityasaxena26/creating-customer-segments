@@ -24,15 +24,15 @@ This project uses the following software and Python libraries:
 
 - [Python 2.7](https://www.python.org/download/releases/2.7/)
 - [NumPy](http://www.numpy.org/)
-- [pandas](http://pandas.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [matplotlib](http://matplotlib.org/)
-
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html).
+- [Pandas](http://pandas.pydata.org/)
+- [Scikit-learn](http://scikit-learn.org/stable/)
+- [Matplotlib](http://matplotlib.org/)
+- [Seaborn](https://pypi.org/project/seaborn/)
+- [Jupyter Notebook](http://ipython.org/notebook.html).
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
-## Data
+## Dataset
 
 The customer segments data is included as a selection of 440 data points collected on data found from clients of a wholesale distributor in Lisbon, Portugal. More information can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers).
 
@@ -57,3 +57,14 @@ This project contains three files:
 - `customer_segments.ipynb`: This is the main file where you will be performing your work on the project.
 - `customers.csv`: The project dataset. You'll load this data in the notebook.
 - `visuals.py`: This Python script provides supplementary visualizations for the project.
+
+## Getting the project files
+1. Clone the repository and navigate to the downloaded folder.
+```
+  git clone https://github.com/adityasaxena26/creating-customer-segments.git
+  cd creating-customer-segments
+```
+2. Run the following to open up the Jupyter notebook server:
+`jupyter notebook`
+
+3. In the browser, open the notebook ```customer_segments.ipynb```
